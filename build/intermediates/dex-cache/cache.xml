@@ -2,283 +2,265 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3ca2b0b8682c0c9521bef0bbfa4d13c407a5e889">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5b07282d7632529058976fa8dec0392f4d5e572b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-8.4.0_289297c9875fa92b29a2abf7086d05e5f2d495a1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-8.4.0_c4f5038501e785fb67d7392bc1a9b20bb209d87c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.4.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-8.4.0_ba26c1ecc9fb41f18b9a825bf344dec2f52c2800/classes.dex" />
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-8.4.0_ba26c1ecc9fb41f18b9a825bf344dec2f52c2800.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-8.4.0_9f1daa1a37c40d589dca1b501964602a6056cb39/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="04de44f90606c77f3b28cf44861f306290505aac">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-8.4.0_1319bbc3cf65b6b483781eed6e59f8d6f878bd7a/classes.dex" />
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-8.4.0_1319bbc3cf65b6b483781eed6e59f8d6f878bd7a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.4.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-8.4.0_c9ee19817d9c840d601af99ff877c45bf2446c7a/classes.dex" />
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-8.4.0_289297c9875fa92b29a2abf7086d05e5f2d495a1.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-8.4.0_9f1daa1a37c40d589dca1b501964602a6056cb39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-8.4.0_c4f5038501e785fb67d7392bc1a9b20bb209d87c.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.0.0_0138ddf642b718fd2752424b8285b5e266fd5f8d/classes.dex" />
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.0_0138ddf642b718fd2752424b8285b5e266fd5f8d.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.0.0_f06b6feeba501d57bcae6d6ab59fd680317d558c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_b9642a8d360519104effa22f8d583930d6228d48/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_23ff88cacc1524defc02ecbd3e041e33161e05eb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-8.4.0_dc78af372b5fa3105cc39b16e546619bd3c013c2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-8.4.0_7a098a70d8bf801d471023424f397920833a75ed/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_71d6e0d4e0a242b5b943413fbd4eebe29a1425a7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.0.0_516c4dbeec279edaf3222da1db501b4544de600f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-8.4.0_6ff397652cea5334e94e1f41c8a3b3b67e9cce35/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_fa0f876cf58567311945180a75f91f5e6503a508/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_3fe727eb363dfa30322bc8acc0146b4e63ac4875/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-measurement-8.4.0_70e9b04b13851e0f51fab037c5229b2fcd5b0b32/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-8.4.0_7a4d58b00445136a66e0fd1116fa821d61604292/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_db5263f667d86cd52be7396fde46aa8b5f10e3d5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-8.4.0_1e27047b47f784738b3b880eb8431b42943d2ee3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-8.4.0_3d5e0d2c4047cb817bdac67c9949fb376ac00c17/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-8.4.0_723d0f2eee4d935dd2b8969d938c2413bdf40df7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-8.4.0_a0c65a8c68fd571f1419542fa290cd097f44a0aa/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-8.4.0_a6da57d396b7ffa7d21d1376d7d724700ea57903/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-8.4.0_360657120cd34b40913eddcc2b29af72beb89353/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-8.4.0_3e326e08ac97bd5d7a2c1c4923b210e1c2b4d4b4/classes.dex" />
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-8.4.0_3e326e08ac97bd5d7a2c1c4923b210e1c2b4d4b4.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-8.4.0_6ff397652cea5334e94e1f41c8a3b3b67e9cce35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_fa0f876cf58567311945180a75f91f5e6503a508.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-8.4.0_c9ee19817d9c840d601af99ff877c45bf2446c7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-8.4.0_7a4d58b00445136a66e0fd1116fa821d61604292.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-measurement-8.4.0_70e9b04b13851e0f51fab037c5229b2fcd5b0b32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.android.support-mediarouter-v7-23.0.0_db5263f667d86cd52be7396fde46aa8b5f10e3d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0_3fe727eb363dfa30322bc8acc0146b4e63ac4875.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-8.4.0_1e27047b47f784738b3b880eb8431b42943d2ee3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/socket/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0_516c4dbeec279edaf3222da1db501b4544de600f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0_b9642a8d360519104effa22f8d583930d6228d48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.4.0_23ff88cacc1524defc02ecbd3e041e33161e05eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-8.4.0_723d0f2eee4d935dd2b8969d938c2413bdf40df7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-8.4.0_3d5e0d2c4047cb817bdac67c9949fb376ac00c17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-8.4.0_a0c65a8c68fd571f1419542fa290cd097f44a0aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="a8412b654dab86d57bf90683367488211c8a81f1">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-8.4.0_44d2bfdbf889ce490ea47ae73feaf4c1b4ea45df/classes.dex" />
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-8.4.0_44d2bfdbf889ce490ea47ae73feaf4c1b4ea45df.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="4f5d403e149db6fea5064d5f97ab3a1c3170a9a0">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_98963100424916e62a1e22a803ea6b0f710b2516/classes.dex" />
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-8.4.0_360657120cd34b40913eddcc2b29af72beb89353.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-8.4.0_a6da57d396b7ffa7d21d1376d7d724700ea57903.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.0_f06b6feeba501d57bcae6d6ab59fd680317d558c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-8.4.0_dc78af372b5fa3105cc39b16e546619bd3c013c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_71d6e0d4e0a242b5b943413fbd4eebe29a1425a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-8.4.0_7a098a70d8bf801d471023424f397920833a75ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
-        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-8.4.0_e11bf1f72b37f9c5b9633d9c5ada8930ba59e06e/classes.dex" />
+        <dex dex="/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-8.4.0_e11bf1f72b37f9c5b9633d9c5ada8930ba59e06e.jar" />
     </item>
 
 </items>

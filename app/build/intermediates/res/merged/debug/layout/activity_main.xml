@@ -10,12 +10,24 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     tools:context="com.example.socket.geosharing.MainActivity">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editLocation"
+            android:hint="Enter Location"/>
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editLocation"
-        android:hint="Enter Location"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/myLocation"
+            android:src="@drawable/device_location"
+            android:foregroundGravity="left"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
 
     <TextView
         android:layout_width="match_parent"
@@ -41,20 +53,24 @@
         android:hint="Enter Mobile Number"
         android:id="@+id/editSMS"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/buttonSMS"
-        android:text="Send SMS"/>
-    <EditText
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editEmail"
-        android:hint="Enter Email ID" />
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSMS"
+            android:text="Send SMS"
+            android:layout_weight="0.39" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/buttonEmail"
-        android:text="Send Email"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonEmail"
+            android:text="Share"
+            android:layout_weight="0.69" />
+
+    </LinearLayout>
 </LinearLayout>

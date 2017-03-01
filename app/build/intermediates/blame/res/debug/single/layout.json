@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_list_menu_item_icon.xml"
-    },
-    {
         "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
         "source": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_list_menu_item_icon.xml"
     },
     {
         "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",

@@ -4,6 +4,7 @@ package com.example.socket.geosharing;
 import android.Manifest;
 import android.app.Activity;
 import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
@@ -20,6 +21,7 @@ import android.os.Message;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -36,13 +38,11 @@ import com.google.android.gms.location.LocationServices;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
 import java.util.UUID;
 
 import static android.R.id.message;
 
-public class MainActivity extends Activity implements LocationListener {
+public class MainActivity extends Activity  {
     
     PendingIntent mGeofencePendingIntent;
     private List<Geofence> mGeofenceList;
@@ -51,8 +51,10 @@ public class MainActivity extends Activity implements LocationListener {
     LocationRequest mLocationRequest;
     double Latitude, Longitude;
     TextView latLongTV;
-    EditText editLocation, editEmail, editMobile, editPerimeter;
+    EditText editLocation, editMobile, editPerimeter;
     Button location, sms, email;
+    ImageView locationDevice;
+    GPSTracker gps;
     float perimeter = 10;
     String phone, messege, url = "http://maps.google.com/?q=";
     protected boolean checkIfAlreadyhavePermission(){
@@ -73,39 +75,66 @@ public class MainActivity extends Activity implements LocationListener {
         location = (Button) findViewById(R.id.buttonLocation);
         sms = (Button) findViewById(R.id.buttonSMS);
         email = (Button) findViewById(R.id.buttonEmail);
-        editEmail = (EditText) findViewById(R.id.editEmail);
+        //editEmail = (EditText) findViewById(R.id.editEmail);
         editLocation = (EditText) findViewById(R.id.editLocation);
         editMobile = (EditText) findViewById(R.id.editSMS);
         editPerimeter = (EditText) findViewById(R.id.editPerimeter);
         final SmsManager smsManager = SmsManager.getDefault();
         smsManager.sendTextMessage("phoneNo", null, "sms message", null, null);
-        Log.d("perimeterr",editPerimeter.getText().toString());
+        Log.d("perimeterr", editPerimeter.getText().toString());
         //perimeter = Float.parseFloat(editPerimeter.getText().toString());
+
+        locationDevice = (ImageView) findViewById(R.id.myLocation);
+
+        // show location button click event
+        locationDevice.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                // create class object
+                gps = new GPSTracker(MainActivity.this);
+
+                // check if GPS enabled
+                if(gps.canGetLocation()){
+
+                     Latitude = gps.getLatitude();
+                     Longitude = gps.getLongitude();
+
+                    // \n is for new line
+                    Toast.makeText(getApplicationContext(), "Your Location is - \nLat: " + Latitude + "\nLong: " + Longitude, Toast.LENGTH_LONG).show();
+                }else{
+                    // can't get location
+                    // GPS or Network is not enabled
+                    // Ask user to enable GPS/network in settings
+                    gps.showSettingsAlert();
+                }
+
+            }
+        });
+
 
         int MyVersion = Build.VERSION.SDK_INT;
         if (MyVersion > Build.VERSION_CODES.LOLLIPOP_MR1) {
             if (checkIfAlreadyhavePermission()) {
                 //GOOGLE API CONNECT
-            }
-            else{
+            } else {
                 requestForSpecificPermission();
 
             }
-        }
-        else{
+        } else {
             //GOOGLE API CONNECT
         }
         sms.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 phone = editMobile.getText().toString();
-                messege = url+latLongTV.getText().toString();
-                Intent intent=new Intent(getApplicationContext(),MainActivity.class);
-                PendingIntent pi=PendingIntent.getActivity(getApplicationContext(), 0, intent,0);
+                messege = url + latLongTV.getText().toString();
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                PendingIntent pi = PendingIntent.getActivity(getApplicationContext(), 0, intent, 0);
 
                 //Get the SmsManager instance and call the sendTextMessage method to send message
-                SmsManager sms=SmsManager.getDefault();
-                sms.sendTextMessage(phone, null, messege, pi,null);
+                SmsManager sms = SmsManager.getDefault();
+                sms.sendTextMessage(phone, null, messege, pi, null);
 
                 Toast.makeText(getApplicationContext(), "Message Sent successfully!",
                         Toast.LENGTH_LONG).show();
@@ -127,20 +156,10 @@ public class MainActivity extends Activity implements LocationListener {
                 GeocodingLocation locationAddress = new GeocodingLocation();
                 locationAddress.getAddressFromLocation(address,
                         getApplicationContext(), new GeocoderHandler());
-                Log.d("perimeterr",editPerimeter.getText().toString());
+                Log.d("perimeterr", editPerimeter.getText().toString());
                 perimeter = Float.parseFloat(editPerimeter.getText().toString());
                 //createGeofences(Latitude, Longitude);
-            }
-        });
-
-            mGeofenceList = new ArrayList<>();
-
-        new Timer().schedule(new TimerTask() {
-            @Override
-            public void run() {
-                // this code will be executed after 2 seconds
-                //mGeofenceList = new ArrayList<>();
-
+                mGeofenceList = new ArrayList<>();
                 int resp = GooglePlayServicesUtil.isGooglePlayServicesAvailable(MainActivity.this);
                 if (resp == ConnectionResult.SUCCESS) {
 
@@ -151,46 +170,14 @@ public class MainActivity extends Activity implements LocationListener {
                 } else {
                     Log.e(TAG, "Your Device doesn't support Google Play Services.");
                 }
+                mLocationRequest = LocationRequest.create()
+                        .setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY)
+                        .setInterval(1 * 1000)        // 10 seconds, in milliseconds
+                        .setFastestInterval(1 * 1000);
             }
-        }, 20000);
+        });
+    }
 
-            /*int resp = GooglePlayServicesUtil.isGooglePlayServicesAvailable(this);
-            if (resp == ConnectionResult.SUCCESS) {
-
-                initGoogleAPIClient();
-
-                createGeofences(Latitude, Longitude);
-
-            } else {
-                Log.e(TAG, "Your Device doesn't support Google Play Services.");
-            }*/
-
-            // Create the LocationRequest object
-            mLocationRequest = LocationRequest.create()
-                    .setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY)
-                    .setInterval(1 * 1000)        // 10 seconds, in milliseconds
-                    .setFastestInterval(1 * 1000); // 1 second, in milliseconds
-
-        }
-
-
-
-    /*protected void sendSMSMessage() {
-        phone = editMobile.getText().toString();
-        messege = latLongTV.getText().toString();
-
-        if (ContextCompat.checkSelfPermission(this,
-                Manifest.permission.SEND_SMS)
-                != PackageManager.PERMISSION_GRANTED) {
-            if (ActivityCompat.shouldShowRequestPermissionRationale(this,
-                    Manifest.permission.SEND_SMS)) {
-            } else {
-                ActivityCompat.requestPermissions(this,
-                        new String[]{Manifest.permission.SEND_SMS},
-                        MY_PERMISSIONS_REQUEST_SEND_SMS);
-            }
-        }
-    }*/
 
 
     public void initGoogleAPIClient() {
@@ -364,23 +351,6 @@ public class MainActivity extends Activity implements LocationListener {
                 break;
             default:
                 super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-            /*case MY_PERMISSIONS_REQUEST_SEND_SMS: {
-                if (grantResults.length > 0
-                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                 //GOOGLE API CLIENT CODE
-                    SmsManager smsManager = SmsManager.getDefault();
-
-                    smsManager.sendTextMessage(phone, null, messege, null, null);
-                    Toast.makeText(getApplicationContext(), "SMS sent.",
-                            Toast.LENGTH_LONG).show();
-                } else {
-                    Toast.makeText(getApplicationContext(),
-                            "SMS faild, please try again.", Toast.LENGTH_LONG).show();
-                    return;
-                }
-            }break;*/
-
-
         }
 
     }

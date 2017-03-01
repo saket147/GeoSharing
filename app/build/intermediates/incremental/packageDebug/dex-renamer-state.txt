@@ -1,7 +1,4 @@
-#Fri Feb 17 01:35:07 IST 2017
-base.0=/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5b07282d7632529058976fa8dec0392f4d5e572b
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_98963100424916e62a1e22a803ea6b0f710b2516/classes.dex
-base.1=/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_98963100424916e62a1e22a803ea6b0f710b2516
-file.0=/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5b07282d7632529058976fa8dec0392f4d5e572b/classes.dex
+#Tue Feb 28 00:13:22 IST 2017
+base.0=/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

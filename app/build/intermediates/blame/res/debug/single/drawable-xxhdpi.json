@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_plusone_medium_off_client.png",
-        "source": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/res/drawable-xxhdpi/ic_plusone_medium_off_client.png"
-    },
-    {
         "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png",
         "source": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_plusone_medium_off_client.png",
+        "source": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/res/drawable-xxhdpi/ic_plusone_medium_off_client.png"
     },
     {
         "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_pause_dark.png",
@@ -28,16 +28,16 @@
         "source": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_plus_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_dark_normal.9.png",
-        "source": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_plus_signin_btn_icon_dark_normal.9.png"
+        "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable-xxhdpi/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_pause_light.png",
         "source": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-xxhdpi/ic_pause_light.png"
     },
     {
-        "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable-xxhdpi/abc_ab_share_pack_mtrl_alpha.9.png"
+        "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_plus_signin_btn_icon_dark_normal.9.png"
     },
     {
         "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/powered_by_google_light.png",
@@ -88,24 +88,24 @@
         "source": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-xxhdpi/ic_cast_on_1_light.png"
     },
     {
-        "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_setting_light.png",
-        "source": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-xxhdpi/ic_setting_light.png"
-    },
-    {
         "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png",
         "source": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable-xxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_setting_light.png",
+        "source": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-xxhdpi/ic_setting_light.png"
     },
     {
         "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_cast_on_2_light.png",
         "source": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-xxhdpi/ic_cast_on_2_light.png"
     },
     {
-        "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_list_longpressed_holo.9.png",
-        "source": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable-xxhdpi/abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_dark_disabled.9.png",
         "source": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_list_longpressed_holo.9.png",
+        "source": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable-xxhdpi/abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_check_to_on_mtrl_000.png",
@@ -266,6 +266,10 @@
     {
         "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_list_pressed_holo_light.9.png",
         "source": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/drawable-xxhdpi/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/device_location.png",
+        "source": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/generated/res/pngs/debug/drawable-xxhdpi/device_location.png"
     },
     {
         "merged": "/home/socket/AndroidStudioProjects/GeoSharing/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_radio_to_on_mtrl_000.png",
